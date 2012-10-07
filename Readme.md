@@ -1,6 +1,6 @@
-# Composer Installer for Sledgehammer Framework modules
+# Composer installer for Sledgehammer modules
 
-Using this installer, all [Composer][http://getcomposer.org/] packages of `"type" : "sledgehammer-module"`
+Using this installer, all [Composer](http://getcomposer.org/) packages of `"type" : "sledgehammer-module"`
 will be installed in `sledgehammer/` folder.
 
 ## Package requirements
@@ -12,7 +12,7 @@ Add the "sledgehammer/core" as dependancy to your package.
     }
  ```
 
-You can also add "sledgehammer/composer-installer" directly as dependancy, but then sledgehammer/core won't be installed as depencancy 
+You can also use "sledgehammer/composer-installer" instead, but then "sledgehammer/core" won't be installed as dependancy 
 (which the package probably relies on, being a "sledgehammer-module" and all)
 
 
@@ -22,7 +22,7 @@ You can also add "sledgehammer/composer-installer" directly as dependancy, but t
 curl -s https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin
 ```
 
-##  Instaling the core module via composer
+##  Basic composer usage
 
 ```
 cd  /your/project/
